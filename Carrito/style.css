@@ -1,13 +1,10 @@
-.buttonn {
-    
-    float: left;
-    
-   }
+
    
 
-p{
-    margin-right: 50px;
-    padding: auto;
+.pp{
+    margin-right: 30px;
+    margin-top: 5px;
+    
 }
 
 .image{
@@ -19,6 +16,33 @@ body{
 
 }
 
-h4{
-    margin-left: 50px;
+h5{
+    margin-left: 80px;
 }
+
+.fix{
+
+    position:fixed;
+    top: 60px;
+    left: 230px;
+    background-color: rgb(84, 76, 155);
+    width: auto;
+    height: 32px;
+    
+}
+.fix1{
+
+    position:fixed;
+    top: 60px;
+    left: 280px;
+    right:500px;
+    width: 55px;
+    height:32px ;
+       
+}
+
+h2
+{
+    margin-left: 30rem;
+}
+
