@@ -2,19 +2,21 @@
    
 
 .pp{
-    margin-right: 30px;
-    margin-top: 5px;
+    margin-right: 40px;
+    margin-top: 15px;
     
 }
 
 .image{
     max-width: 250px;
+    margin-left: 40px;
     
 }
 body{
     background-image: url("lechuga.jpg");
 
 }
+
 
 h5{
     margin-left: 80px;
