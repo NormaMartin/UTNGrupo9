@@ -1,11 +1,32 @@
-body {background-image: url(./pexels-carl-wyatt-2237485.jpg); 
-    width: auto;
+body {
+   width: auto;
 }
-.mifondo { color: rgb(6, 5, 5);}
+
+.mifondo { color: rgb(6, 5, 5);
+  width: auto;
+}
 
 .mifondonav {background-color: rgb(99, 194, 235)}
+/* la imagen se repite porque la uso en dos clases. solo dejo la del body */
 
-body {
-    background-image: url(./pexels-carl-wyatt-2237485.jpg) ;
-    width: auto;
+#multistep {
+  background-image: url("../principal.jpg");
+  height: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#multistep form {
+  background-color: rgb(78, 159, 237);
+  background: #fefcfc82;
+  padding: 1rem;
+  box-shadow: 4px 4px 8px;
+  border-radius: 3%;
+  width: 100%;
+  max-width: 500px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
 }
