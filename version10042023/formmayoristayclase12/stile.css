@@ -1,0 +1,27 @@
+
+body {
+  background-image: url(./principal.jpg);
+  background-size:initial  ;
+  color: black;
+}
+
+
+#formulario {
+ color: white;
+background-size: cover;
+justify-content: center;
+align-items: center;
+border-radius: 1%;
+}
+
+#formulario form{
+  background-color: rgb(77, 118, 104);
+  background: linear-gradient(130deg, rgb(74, 104, 94) 40%, rgb(56, 140, 105) 50%, rgb(206, 239, 228)100%);
+  padding: 5rem;
+  box-shadow: 4px 4px 8px;
+ border-radius: 3%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.mifondonav {background-color: rgb(99, 235, 147)}
