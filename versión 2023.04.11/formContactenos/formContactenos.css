@@ -1,0 +1,33 @@
+body{
+  background-image: url("../Carrito/imagenes/lechuga.jpg");
+
+}
+.mifondonav {
+  background-color: rgb(99, 235, 147);
+  color:black;  
+
+}
+ .id{  
+  font-size: 16px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(11, 48, 24);
+  border-color:rgb(99,235,147);
+  border-style: solid;
+  border-radius: 15px;
+  padding:10px;
+  margin:10px;
+  
+}
+.fake{
+  color:darkred;
+  font-display: auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+.h1{
+    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

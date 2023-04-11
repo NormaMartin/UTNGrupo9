@@ -1,0 +1,50 @@
+ .pp{
+    margin-right: 40px;
+    margin-top: 15px;
+    
+}
+
+.image{
+    max-width: 250px;
+    margin-left: 40px;
+    
+}
+body{
+    background-image: url("./imagenes/lechuga.jpg");
+
+}
+
+h5{
+    margin-left: 80px;
+}
+
+.fix{
+
+    position:fixed;
+    top: 130px;
+    left: 230px;
+    background-color: rgb(84, 76, 155);
+    width: auto;
+    height: 32px;
+    
+}
+.fix1{
+
+    position:fixed;
+    top: 130px;
+    left: 280px;
+    right:500px;
+    width: 55px;
+    height:32px ;
+       
+}
+
+h2
+{
+    margin-left: 30rem;
+}
+
+.mifondonav {
+    background-color: rgb(99, 235, 147);
+    color:black;  
+}
