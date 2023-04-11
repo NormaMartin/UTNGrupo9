@@ -6,11 +6,11 @@ body {
   width: auto;
 }
 
-.mifondonav {background-color: rgb(99, 194, 235)}
+.mifondonav {background-color: rgb(99, 235, 147)}
 /* la imagen se repite porque la uso en dos clases. solo dejo la del body */
 
 #multistep {
-  background-image: url("../principal.jpg");
+  background-image: url("../index/imagenes/principal.jpg");
   height: 1030px;
   display: flex;
   justify-content: center;
