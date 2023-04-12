@@ -13,13 +13,12 @@
     <link rel="shorcut icon" href="../inicio/imagenes/favicon.png">
   </head>  
 
-<body id="inicio">
-  <style>
-    body {background-size:cover;}
-  </style>
-<!--acá arranca la navegación de bootstrap modificada-->
-   <header class=sticky-top>
-      <nav>
+  <body>
+  
+    <!--acá arranca la navegación de bootstrap modificada-->
+    <header class=sticky-top>
+      <!--acá arranca la navegación de bootstrap modificada-->
+      <nav >
         <div class="container-fluid  mifondonav opacity-75 ">      
           <nav class="navbar navbar-expand-sm text-white">
             <div class="container-fluid">
@@ -28,20 +27,23 @@
               </button>
               <div class="collapse navbar-collapse text-center" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item"><!-- link  listo -->
-                    <a class="nav-link active" aria-current="page" href="../inicio/Inicio.html"><h4>inicio</h4></a> 
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../inicio/inicio.html"><h4>inicio</h4></a> <!--cambiar el link cuando este listo todo-->
                   </li>
-                </ul>
+              </ul>
               </div>
-            <nav class="navbar-collapse text-center"><!--link  listo -->
-                <div class="container justify-content-end">
-                  <a class="  navbar-brand text-black" href="../Carrito/carro.html" target="_blank"><b> carrito</b>
-                    <img src="../inicio/imagenes/Carrito.jpg" class="rounded-bottom border-black img-thumbnail" alt="Bien Natural" width="45" height="38"> 
+              <nav class="navbar-collapse text-center ">
+                <div class="container align-content-center">
+                  <a class="  navbar-brand text-black" href="../formContactenos/formContactenos.html"><b>bien natural</b>
+                    <img src="../inicio/imagenes/carrito.jpg" class="rounded-bottom border-black img-thumbnail" alt="Bien Natural" width="42" height="35"> <!--cambiar el link cuando este listo todo-->
+                  </a>
+                  <a class="  navbar-brand text-blackhref=" href="../Carrito/carro.html" ><b>contáctenos</b>
+                    <img src="../inicio/imagenes/Logobiennatural.jpg" class="rounded-bottom border-black img-thumbnail" alt="Bien Natural" width="42" height="35"> <!--cambiar el link cuando este listo todo-->
                   </a>
                 </div>
-            </nav>
+              </nav>
             </div>
-          </nav>    
+          </nav>
         </div>
       </nav>
     </header>
@@ -59,7 +61,7 @@
                 </div>    
                 <div class="mb-3">
                   <label for="telefono">Teléfono</label>
-                  <input type="text" class="form-control" name="telefono" id="telefono" value="0" placeholder="ingresá tu número de teléfono">
+                  <input type="text" class="form-control numeric" name="telefono" id="telefono" value="0"  placeholder="ingresá tu número de teléfono">
                 </div>
                 <div class="mb-3">
                   <label for="mail">Correo electrónico</label>
@@ -90,29 +92,30 @@
               </fieldset>
               <div>
                 <button type="button" id="btn-ant" class="btn-form btn btn-outline-dark">anterior</button>
-                <button type="submit" id="enviar" disabled class="btn-form btn btn-outline-dark">enviar</button>
+                <button type="submit" id="enviar" class="btn-form btn btn-outline-dark">enviar</button>
               </div>
             </form>    
           </div>
         </section>
       </div>    
-<!-- el footer más penoso de internet-->
-<footer class="mifondonav container-fluid">
-  <div >
-   <img class= "col-sm-3 footerlogo"  src="../index/imagenes/Logoinicio1.jpg" alt="logo" width="60"  >
-  </div>
-  <div class="grupo col-sm-6">
-    <h6>Trabajo realizado por GRUPO 9</h6>
-    <h6 class="text-white"> Norma Martin, Claudia Galvez, Julio Delaunay, Javier Aguerregaray</h6>
-   </div>
-
-   <div class="right col-sm-3">
-     <img src="../quienessomos/imagenes/logoutnargentina.png" alt="logo UTN Argentina programar">
-     <h6>UTN Argentina Programa </h6>
-   </div>
- 
-</footer> 
-      <script src="./indexform.js"></script>
+      <!-- el footer más penoso de internet-->
+      <footer class="mifondonav container-fluid">
+        <div >
+         <img class= "col-sm-3 footerlogo"  src="../inicio/imagenes/Logobiennatural.jpg" alt="logo" width="60"  >
+        </div>
+        <div class="grupo col-sm-6">
+          <h6>Trabajo realizado por GRUPO 9</h6>
+          <h6 class="text-white"> Norma Martin, Claudia Galvez, Julio Delaunay, Javier Aguerregaray</h6>
+         </div>
+      
+         <div class="right col-sm-3">
+           <img src="../quienessomos/imagenes/logoutnargentina.png" alt="logo UTN Argentina programar">
+           <h6>UTN Argentina Programa </h6>
+         </div> 
+       
+       
+      </footer> 
+      <script src="./indexform.js"></script>      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   </body>
 </html>

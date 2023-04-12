@@ -1,17 +1,16 @@
-body {
-  background-image: url(../inicio/imagenes/fondoinicio.jpg) ;
-   width: auto;
-}
+
 
 .mifondo { color: rgb(6, 5, 5);
   width: auto;
+  display: flex;
 }
 
+/*.mifondonav {background-color: rgb(99, 194, 235)} */
 .mifondonav {background-color: rgb(99, 235, 147)}
-/* la imagen se repite porque la uso en dos clases. solo dejo la del body */
 
 #multistep {
-    height: 1030px;
+  background-image: url("./imagenes/principal.jpg");
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,3 +41,5 @@ footer{
   float:right;
   margin-left: 16px;
   border-radius: 60%;
+
+}
