@@ -1,15 +1,3 @@
-<<<<<<< HEAD:version10.04.2023/formulario(para postulate)/indexform.css
-body {background-image: url(./pexels-carl-wyatt-2237485.jpg); 
-    width: auto;
-}
-.mifondo { color: rgb(6, 5, 5);}
-
-.mifondonav {background-color: rgb(99, 194, 235)}
-
-body {
-    background-image: url(./pexels-carl-wyatt-2237485.jpg) ;
-    width: auto;
-=======
 
 
 .mifondo { color: rgb(6, 5, 5);
@@ -54,5 +42,4 @@ footer{
   margin-left: 16px;
   border-radius: 60%;
 
->>>>>>> 05463e7d83917a5310f6f2ae04dc40e0cc3efbd3:version10042023/formulario(para postulate)/indexform.css
 }
