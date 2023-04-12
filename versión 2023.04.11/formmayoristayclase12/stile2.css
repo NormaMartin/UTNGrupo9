@@ -1,13 +1,14 @@
 
 body {
-  background-image: url(../inicio/imagenes/fondoinicio.jpg);
+  background-image: url(../formPostulate/imagenes/principal.jpg);
+  padding:50px ;
   background-size:initial ;
   color: black;
 }
 
 
-#formulario {
- color: white;
+#formulario {   
+color: white;
 background-size: cover;
 justify-content: center;
 align-items: center;
