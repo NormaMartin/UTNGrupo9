@@ -14,9 +14,7 @@
     <title>Contáctenos</title>
 </head>
 <body>
-  <style>
-    body {background-size:cover;}
-  </style>
+  
   <!--acá arranca la navegación de bootstrap modificada para carrito-->
  <header class=sticky-top>
   <nav>
@@ -29,7 +27,7 @@
             <div class="collapse navbar-collapse text-center" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item"><!-- link  listo -->
-                  <img src="../inicio/imagenes/Logobiennatural.jpg" class="rounded-bottom border-black img-thumbnail" alt="Bien Natural" width="45" height="38">
+                  <img src="../inicio/imagenes/logobiennatural.jpg" class="rounded-bottom border-black img-thumbnail" alt="Bien Natural" width="45" height="38">
                   <a class="nav-link active textmifondonav colorin" aria-current="page" href="../inicio/Inicio.html"><h4>inicio</h4></a>
                   
                 </li>
@@ -46,84 +44,72 @@
         </nav>
       </div>
     </nav>
-  </header>
-  
-<section>
-  <div class="container">
-   <!--titulos--> 
-     <h2 class="m-3 display-6">Contáctenos</h2>
-     <h3 class="m-3 display-6">Deje su opinion o haga su consulta, tus consultas no molestan...</h3>
-   <!--formulario-->  
-    <div class="formContacto">
-      <div class="container-fluid">
-        <div class="row">
-    <!--col derecha nombres-->  
-            <div class="col-12 col-sm-4 ">
-                <div class="id">
-                  <label for="clientName"> Nombre</label>
-                </div>
-                <div class="id">
-                 <label  for=" email"> e-mail  </label> 
-                </div>
-                <div class="id">
-                  <label for="telefono">Teléfono</label>
-                </div>
-            </div>  
-    <!--col izquierda inputs-->
-            <div class="col-12 col-sm-8">
-                <div class="id inputs">
-                  <input  class="form-control" type="text" name="clientName" id="clientName"></input>
-                </div>
-                <div class="id">
-                  <input class="form-control" type="email" id="email" plaholder="Ingrese mail...">
-                </div>
-                <div class="id">
-                  <input class="form-control" type="" name="telefono" id="telefono"></input>
-                </div>
+  </header> 
+  <!--aca arranca el formulario-->
+  <form>
+   <div class="container">
+     <div class="m-5 p-2 display-5">
+      <h2 >Contáctenos</h2>
+    <fieldset>
+      <legend class="m-2" >Deje su comentario o haga su consulta, sus consultas no molestan...</legend>
+     </div>
+    
+    <div class="nomenclatura  row mb-3 col-lg-7">
+            <label for="nombre" class=" col-sm-2 col-form-label">Nombre </label>
+            <div class="col-sm-10">
+             <input type="nombre" class="form-control" id="nombre">
             </div>
-          
-    <!--consulta-->
-            <div>
-              <div class="mifondonav id">
-                <label  for="consulta">Consultas:</label> 
-              </div>
-              <div class="m-2">
-                <textarea  name="consulta" id="consulta"
-                 cols="140"  rows="6"></textarea>
-            </div>
-        </div>
-      </div> 
     </div>
-  <!--botones de envio del form-->
-    <div class="formContacto">
-      <div class="container-fluid text text-center">
-          <div class="row">
-            <div class="col-12 col-sm-6">
-              <div >
-                <input class="btn btn-success"  type="submit" value="enviar">enviar</input>
-                 
-              </div>
-            </div> 
-            <div class="col-12 col-sm-6">
-              <div >
-                <input class="btn btn-primary" type="reset" value="limpiar"></input> 
-              </div>
-            </div> 
+    <div class="nomenclatura row my-3 p-2 col-lg-7">
+             <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+          <div class="col-sm-10">
+              <input type="telefono" class="form-control" id="telefono">
           </div>
-      </div>
+    </div>  
+    <div class="nomenclatura row mb-3 col-lg-7 ">
+             <label for="e-mail" class=" col-sm-2 col-form-label">e-mail</label>
+            <div class="col-sm-10">
+               <input type="e-mail" class="form-control" id="e-mail">
+            </div>
     </div>
-  </div>
-</section>
-<br>
-<br>
-<br>
+       <div class="form-floating nomenclatura">
+          <label for="floatingTextarea2">Comentarios</label>
+          <textarea class="form-control" placeholder="haga su comentario" id="floatingTextarea2" style="height: 200px"></textarea> 
+        </div>
+    <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Deseo recibir información de sus promociones
+              </label>
+            </div>
+          </div>
+    </div>
+    <div class="container p-2">
+        <div class="col-sm-10 offset-sm-2 mb-2">
+         <input class="btn btn-success"  type="submit" value="enviar"></input>
+        </div>
+        <div class="col-sm-10 offset-sm-2">
+         <input class="btn btn-success" type="reset" value="limpiar"></input> 
+        </div>
+    </div>
+   </div> 
+    </fieldset>
+       
+    </div>
+  </form>
+
+  
+
+
 <footer class="mifondonav ">  
   <div class="fake">
      <h1>Esta página fue creada totalmente <i>fake</i>, para cumplir el único objetivo de entregar este trabajo. Toda la información es <b>fictícia y los datos robados de la internet.</b> </h2>
   </div>
 </footer>  
-  
-  <script src= "./formContactenos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><br> 
+<script src= "./formContactenos.js"></script>
 
 
 

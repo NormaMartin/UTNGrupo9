@@ -1,6 +1,6 @@
 body{
   background-image: url("../Carrito/imagenes/lechuga.jpg");
-
+  background-size:cover;
 }
 .mifondonav {
   background-color: rgb(99, 235, 147);
@@ -8,19 +8,30 @@ body{
 .colorin{
   color:black;  
 
-}
- .id{  
-  font-size: 16px;
-  text-align: center;
+} 
+
+.nomenclatura{
+      
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:rgb(11, 48, 24);
+  text-align: center;
   border-color:rgb(99,235,147);
   border-style: solid;
   border-radius: 15px;
-  padding:10px;
+  padding:20px;
   margin:10px;
+}
+.btnlinks{
+  background-color:rgb(99, 235, 147);
+  border-color:rgb(173, 218, 188);
+  border-radius: 8px;
+  padding:10px 40px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(20, 99, 48);
   
 }
+
 .fake{
   color:darkred;
   font-display: auto;
