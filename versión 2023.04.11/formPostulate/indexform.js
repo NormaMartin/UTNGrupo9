@@ -37,7 +37,36 @@ function handleMultistep(evento) {
 
 
 function enviardatos() {
-   console.log("Hola");
+  let sigo = "SI";
+  let msg = "Debe ingresar ";
+  if (nombre.value == "") {
+     sigo = "NO";
+     msg = msg + "nombre";
+    }
+  if (mail.value == "") {
+      sigo = "NO";
+      if (msg == "Debe ingresar ") 
+        msg = msg + "email";
+      else 
+        msg = msg + ", " + "email";
+     }  
+  if (domicilio.value == "") {
+      sigo = "NO";
+      if (msg == "Debe ingresar ") 
+        msg = msg + "domicilio";
+      else 
+        msg = msg + ", " + "domicilio";
+     }
+  if (localidad.value == "") {
+      sigo = "NO";
+      if (msg == "Debe ingresar ") 
+        msg = msg + "localidad";
+      else 
+        msg = msg + ", " + "localidad";
+     }     
+    
+  if (sigo !== "NO" )  {
+    
    console.log("Apellido y nombre " + nombre.value );
    console.log("Telefono" + telefono.value );
    console.log("Correo " + mail.value );
@@ -47,7 +76,9 @@ function enviardatos() {
   // console.log(nombre.value, telefono.value, mail.value, domicilio?.value, localidad.value, comentarios.value);
    formulario1.reset();
    formulario2.reset();  
+   alert("Los datos fueron guardados, nos contactaremos cuando surja una vacante");
+  }
+  else alert(msg) ;
   
-
 }
 
